@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+					
+			@-webkit-keyframes animation{
+				0%{
+					background-size: 400px 55px;	
+				}
+				50%{
+					background-size: 200px 55px;
+				}
+				100%{
+					background-size: 0px 55px;
+				}
+			} 
+						
+			@keyframes animation{
+				from{
+					background-size: 400px 55px;						
+				}
+				50%{
+					background-size: 200px 55px;		
+				}
+				to{
+					background-size: 0px 55px;	
+				}			
+			}
+			
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			a{
+				text-decoration:none;
+			}
+			
+			#banner{
+				width: 400px;
+				height: 55px;
+				background-color: gray;
+				
+				background-image: linear-gradient(90deg, transparent 0%, rgba(255,255,255,.5) 0%);
+				background-repeat: no-repeat;
+				
+				-webkit-animation-name			  : animation;
+				-webkit-animation-duration        : 0.5s;
+				-webkit-animation-iteration-count : 6;
+				-webkit-animation-direction       : alternate;
+				-webkit-animation-delay           : 3s;
+				-webkit-animation-play-state      : running;
+				
+				animation-name			  :	animation;
+				animation-duration        : 0.5s;
+				animation-iteration-count : 6;
+				animation-direction       : alternate;
+				animation-delay           : 3s;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="banner">
+			<a href="#"> Descargar Catálogo Mundial </a>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+			<div class="header">
+                <!-- header-->
+                <div class="nav">
+                    <!--nav-->
+                    <ul>
+                        <li>
+                            <a href="empresa.php" class="iframe">Empresa</a>
+                            <a href="empresa.php" class="iframe"><img src="images/icon6.png" alt="Empresa" title="Empresa" border="0" /></a>
+                        </li>
+                        <li class="current">
+                            <a href="servicios.php" class="iframe">Servicios</a>
+                            <a href="servicios.php" class="iframe"><img src="images/icon2.png" alt="Servicios" title="Servicios" border="0" /></a>
+                        </li>
+                        <li>
+                            <a href="novedades.php" class="iframe">Novedades</a>
+                            <a href="novedades.php" class="iframe"><img src="images/icon3.png" alt="Novedades" title="Novedades" border="0" /></a>
+                        </li>
+                        <li>
+                            <a href="contacto.php" class="iframe">Cómo llegar</a>
+                            <a href="contacto.php" class="iframe"><img src="images/icon4.png" alt="Contacto" title="Contacto" border="0" /></a>
+                        </li>
+                        <li class="last">
+                            <a href="faqs.php" class="iframe">Preguntas frecuentes</a>
+                            <a href="faqs.php" class="iframe"><img src="images/icon5.png" alt="Preguntas frecuentes" title="Preguntas frecuentes" border="0" /></a>
+                        </li>
+                    </ul>
+                </div><!-- end nav-->
+                <div class="header-left">
+                    <!-- header-left--><h1 class="logo"><a href="./">enterprise</a></h1>
+                    <a href="downlpdf.php?ruta=http://gylenterprise.com.ar/invierno2013/catalogoinvierno.pdf" class="descargar" ><img src="images/img111.png" alt="" /></a>
+                </div>
+                <!-- end header-left-->
+                <div class="title">
+                 </div>
+            </div>
+            <!-- end header-->

@@ -1,0 +1,8 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule marroquineria/mochilas/mochilas2.html http://www.gylenterprise.com.ar/landing/marroquineria/mochilas/mochilas_publicitarias.html [R,NC] 
+RewriteRule gorros/gorros.html http://www.gylenterprise.com.ar/landing/gorros/gorros_publicitarios.html [R,NC] 
+RewriteRule bolsasecologicas/bolsaseco3.html http://www.gylenterprise.com.ar/landing/marroquineria/bolsasecologicas/bolsas_ecologicas.html [R,NC] 
+RewriteRule buzos/buzos.html http://www.gylenterprise.com.ar/landing/buzos/buzos_publicitarios.html [R,NC] 
+RewriteRule marroquineria/bolsos.html http://www.gylenterprise.com.ar/landing/marroquineria/bolsos/bolsos_publicitarios.html [R,NC] 
+RewriteRule chombas/chombas2.html http://www.gylenterprise.com.ar/landing/chombas/chombas_publicitarias.html [R,NC] 

@@ -1,0 +1,55 @@
+/* Reset Styles */ 
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+	display: block; 
+} 
+
+ol, ul { 
+	list-style: none; 
+} 
+
+blockquote, q { 
+	quotes: none; 
+} 
+
+blockquote:before, blockquote:after, q:before, q:after { 
+	content: ''; content: none; 
+} 
+
+table { 
+	border-collapse: collapse; border-spacing: 0; 
+} /* Main Styles */ 
+
+
+.container { 
+	width: 490px; margin: 0 auto; 
+} 
+
+.slideshow { 
+	width: 490px; 
+	height: 380px; 
+	-moz-box-shadow: 0px 0 10px #666; 
+	-webkit-box-shadow: 0px 0 10px #666; 
+	box-shadow: 0px 0 10px #666; 
+} 
+
+.buttons { 
+	width: 100px; margin: 0 auto; 
+} 
+
+.buttons span { 
+	background: #999; 
+	height: 30px; 
+	width: 30px; 
+	margin: 10px 0; 
+	font-size: 20px; 
+	text-align: center; 
+	line-height: 25px; 
+	text-shadow: 0 1px 0 #ccc; 
+	cursor: pointer; 
+	font-family:Verdana, Geneva, sans-serif;
+} 
+
+.buttons span:hover { background: #ccc; } 
+.prev_slide { float: left; } 
+.next_slide { float: right; }

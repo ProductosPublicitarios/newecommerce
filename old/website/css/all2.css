@@ -1,0 +1,1163 @@
+/*-------------------*/
+/*  GENERAL RESET    */
+/*-------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, hr, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, li {
+    line-height: 100%;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+q:before, q:after {
+    content: '';
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    font-family: Arial;
+}
+
+input, textarea, select {
+    font: 11px Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0px;
+}
+
+form, fieldset {
+    border-style: none;
+    float: none;
+}
+
+a {
+    text-decoration: none
+}
+
+/*******************************SETTINGS**********************/
+body {
+    /*background: url("../images/bg-2.jpg") repeat-x top center #fff;*/
+	background-color:#fff;
+    border-top: 7px solid #FFA300;
+}
+
+body.second {
+   /* background: url("../images/bg-2.jpg") repeat-x top center #fff;*/
+   background-color:#fff;
+}
+textarea:focus{
+	outline:none;
+}
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*********header****/
+.header {
+    clear: both;
+    overflow: hidden;
+    position: relative;
+	background-color:#dadfd9;
+}
+
+.nav {
+    float: right;
+    margin: 33px 0 0 0;
+    overflow: hidden;
+}
+
+.nav ul {
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+}
+
+.nav ul li {
+    float: left;
+    padding: 0 4px;
+    width: 97px;
+    z-index: 9999px;
+}
+
+.nav ul li a {
+    color: #000;
+    display: block;
+    float: left;
+    text-align: center;
+}
+.nav ul li a:hover{
+	color:#ff9900;
+}
+
+.nav ul li img {
+    clear: both;
+    float: left;
+    margin: 29px 0 0 -18px;
+}
+
+.nav ul li.last img {
+    margin: 9px 0 0 5px;
+}
+
+.header-left {
+    width: 275px;
+    float: left;
+    margin: 14px 0 0 94px;
+}
+
+.header-left h1.logo a {
+    display: block;
+    background: url("../images/logo.png") no-repeat top center;
+    text-indent: -9999px;
+    width: 99px;
+    height: 63px;
+    float: left;
+}
+
+a.add {
+    display: block;
+    float: right;
+    margin: 12px 4px 0 0;
+}
+
+a.add img {
+    display: block;
+}
+
+.header .title {
+    background: url("../images/img2.jpg") no-repeat scroll center 0 transparent;
+    bottom: 7px;
+    height: 49px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.header .title h2 {
+    color: #FFFFFF;
+    font-size: 24px;
+    margin: 9px 0 0 29px;
+}
+
+/************content********/
+.content {
+    margin: -7px 0 0;
+}
+
+.content.sub {
+    width: 692px;
+    float: left;
+    margin: -3px 0 0;
+}
+
+.top {
+    overflow: hidden;
+    padding: 0 0 0 16px;
+    width: 944px;
+}
+
+.top.sub {
+}
+
+.options-wrapper {
+    float: left;
+    width: 210px;
+}
+
+.options-wrapper .social {
+    clear: both;
+    float: left;
+    margin: 19px 0 0 12px;
+	width:100%;
+}
+
+.options-wrapper .social ul {
+}
+
+.options-wrapper .social ul li {
+    padding-right: 16px;
+}
+
+.options-wrapper ul.options {
+    margin: 4px 0 0 41px;
+	width:140px;
+}
+
+ul.options {
+    float: left;
+    margin: 7px 0 0 3px;
+    width: 109px;
+	background-color:#dadfd9;
+}
+
+ul.options li {
+    border-top: 1px solid #FFD300;
+    height: 21px;
+    line-height: 19px;
+    text-align: left;
+    text-indent: 14px;
+}
+
+ul.options li:hover {
+    background-color: #FF9900;
+}
+
+ul.options li.current {
+    background-color: #FF9900;
+}
+
+ul.options li.first {
+    border: none;
+}
+
+ul.options li a {
+    color: #fff;
+    font-size: 14px;
+	color:#333;
+}
+.wrapper input:focus{
+	border:none;
+}
+/************product-wrapper********/
+.product-sub {
+    background-color: #FFFFFF;
+    float: left;
+    margin: 13px 0 0 2px;
+    width: 465px;
+}
+
+.product-sub h5 {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 20px 0 18px 48px;
+    color: #006325;
+}
+.product-sub ul li a{
+	display:block;
+	
+}
+.product-sub ul li a img{
+	display:block;
+}
+.product-sub ul {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 15px;
+	position:relative;
+}
+.product-sub ul img.line {
+	left: 46px;
+	position: absolute;
+	top: 339px;
+	z-index: 9999;
+}
+.product-sub ul.last {
+    padding-bottom: 31px;
+}
+
+.product-sub ul li {
+    float: left;
+    padding-left: 22px;
+    width: 122px;
+	padding-top:0px;
+}
+.product-sub ul li.x{
+	padding-top:4px;
+}
+.product-sub ul li img {
+}
+
+.product-sub ul li ul.sub {
+    margin: 9px 0 0;
+    overflow: hidden;
+    padding-bottom: 8px;
+}
+
+.product-sub ul li ul.sub li {
+    float: none;
+    padding: 0 0 3px 5px;
+}
+
+.product-sub ul li ul.sub li a.product {
+}
+
+.product-sub ul li ul.sub li a.add {
+    background: url("../images/icon7.jpg") no-repeat scroll left top transparent;
+    color: #959595;
+    display: block;
+    float: left;
+    font-size: 8px;
+    height: 13px;
+    line-height: 5px;
+    margin: 4px 0 0 4px;
+    padding: 0;
+    text-indent: 18px;
+}
+.product-sub{
+	position:relative;
+}
+.product-sub a.next-light{
+    background: url("../images/next.png") no-repeat scroll right top transparent;
+    bottom: 5px;
+    color:#000;
+    display: block;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    padding-right: 38px;
+    position: absolute;
+    right: 47px;
+		
+}
+.product-sub a.prev-light{
+    background: url("../images/prev.png") no-repeat scroll left top transparent;
+    bottom: 4px;
+    color: #FF9F00;
+    display: block;
+    font-size: 12px;
+    height: 32px;
+    left: 48px;
+    line-height: 32px;
+    position: absolute;
+    text-indent: 38px;
+}
+/**********SLIDESHOW*******/
+#slideshow-holder {
+    float: left;
+    height: 414px;
+    margin: 23px 0 0 24px;
+    overflow: hidden;
+    position: relative;
+    width: 560px;
+}
+
+a.prev {
+    position: absolute;
+    display: block;
+    height: 31px;
+    width: 32px;
+    background: url("../images/prev.png") no-repeat top center;
+    top: 176px;
+    left: 18px;
+    text-indent: -9999px;
+    z-index: 99999;
+}
+
+a.next {
+    position: absolute;
+    display: block;
+    height: 31px;
+    width: 32px;
+    background: url("../images/next.png") no-repeat top center;
+    top: 176px;
+    right: 18px;
+    text-indent: -9999px;
+    z-index: 9999;
+}
+
+ul.btn-slide {
+    bottom: 0;
+    left: 236px;
+    position: absolute;
+    z-index: 9999;
+}
+
+ul.btn-slide li {
+    float: left;
+    padding-right: 6px;
+}
+
+ul.btn-slide li a {
+    background: url("../images/btn-slide.png") no-repeat scroll center 1px transparent;
+    display: block;
+    height: 13px;
+    width: 13px;
+}
+
+ul.btn-slide li.activeSlide a {
+    background: url("../images/btn-slide-c.png") no-repeat center;
+}
+
+#slideshow-content {
+    height: 410px;
+    width: 550px;
+	margin-bottom:10px;
+}
+
+.slider {
+    height: 392px;
+    width: 560px;
+}
+
+.slider img {
+}
+
+/*********box-top-******/
+.box-top {
+    background: url("../images/img13.jpg") no-repeat scroll right top transparent;
+    float: right;
+    margin-top: 0px;
+    width: 227px;
+}
+
+.box-top form.search {
+    margin: 26px 0 0;
+    padding: 0 0 0 25px;
+}
+
+.box-top form.search span.search {
+    display: block;
+    background: url("../images/input1.png") no-repeat top center;
+    width: 175px;
+    height: 37px;
+    padding-bottom: 21px;
+}
+
+.box-top form.search span.btn-search {
+    background: url("../images/img9.jpg") no-repeat scroll center top transparent;
+    display: block;
+    float: left;
+    height: 21px;
+    margin: 8px 0 0 9px;
+    width: 24px;
+}
+
+.box-top form.search span.btn-search input.btn-search {
+    background: none;
+    float: right;
+    height: 25px;
+    width: 24px;
+}
+
+.box-top form.search span.search input.search {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    width: 139px;
+    color: #B3B3B3;
+    font-size: 16px;
+    font-weight: bolder;
+    font-style: italic;
+    padding-top: 8px;
+}
+
+.box-top form.search span.submit {
+    background: url("../images/btn1.png") no-repeat scroll center top transparent;
+    display: block;
+    height: 33px;
+    margin: 35px 0 0 2px;
+    padding-bottom: 24px;
+    width: 165px;
+}
+
+.box-top form.search span.submit input {
+    display: block;
+    height: 33px;
+    width: 165px;
+    background: none;
+	    cursor: pointer;
+}
+
+.box-top form.search span.input-top {
+    display: block;
+    background: url("../images/input2.png") no-repeat top center;
+    width: 175px;
+    height: 37px;
+    margin-bottom: 20px;
+}
+
+.box-top form.search span.input-top input {
+    background: none;
+    width: 165px;
+    color: #B3B3B3;
+    font-style: italic;
+    font-size: 12px;
+    padding: 17px 0 0 10px;
+}
+
+.box-top form.search a {
+    color: #FCEE21;
+    display: block;
+    font-size: 11px;
+    margin: -3px 0 0 8px;
+}
+
+.social {
+    overflow: hidden;
+    margin: 28px 0 0 16px;
+	margin-top:10px;
+}
+
+.social ul {
+    overflow: hidden;
+}
+
+.social ul li {
+    float: left;
+    padding-right: 19px;
+}
+
+.social ul li a {
+    display: block;
+    height: 34px;
+    width: 33px;
+    text-indent: -9999px;
+}
+
+.social ul li #fb {
+    background: url("../images/icon-fb.png") no-repeat top center;
+	margin-left:60px;
+}
+.sub ul li #fb {
+ 	margin-left:50px;
+}
+
+.social ul li #twit {
+    background: url("../images/icon-twit.png") no-repeat top center;
+}
+.social ul li #linkedin {
+    background: url("../images/icon-linkedin.png") no-repeat top center;
+	margin-top:1px;
+}
+
+.social ul li #yt {
+    background: url("../images/icon-yt.png") no-repeat top center;
+}
+
+.social ul li #other {
+    background: url("../images/icon-fl.png") no-repeat top center;
+}
+
+.social span {
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    margin: 17px 0 0 42px;
+}
+
+/*********bottom sub**********/
+.bottom.sub {
+    margin: 2px 0 10px;
+}
+
+.left-bottom.sub {
+    border: 4px solid #FF9F00;
+    margin: 6px 0 0 28px;
+    padding-bottom: 0;
+    width: 180px;
+}
+
+.left-bottom.sub .box {
+    overflow: hidden;
+}
+
+.left-bottom.sub .box h4 {
+    background-color: #DADFD9;
+    color: #006325;
+    display: block;
+    padding: 8px 0;
+    text-align: center;
+}
+
+.left-bottom.sub .box .img {
+	    overflow: hidden;
+		width:100%;
+}
+
+.left-bottom.sub .box .img img {
+    float: left;
+    margin: 0 0 1px 22px;
+}
+
+.left-bottom.sub .box .img a.product {
+	    font-size: 9px;
+	margin: 0 0 0 4px;
+    padding-bottom: 24px;
+	width:100%;
+}
+
+.right-bottom.sub {
+    float: right;
+    margin: 0;
+    width: 454px;
+}
+
+.right-bottom.sub form.consult {
+}
+
+/********bottom*******/
+.bottom {
+    clear: both;
+    margin: 20px 0 0;
+    overflow: hidden;
+}
+
+.left-bottom {
+    background-color: #FFFFFF;
+    border: 5px solid #176307;
+    float: left;
+    padding-bottom: 23px;
+    width: 220px;
+}
+
+.left-bottom img {
+    display: block;
+}
+
+.right-bottom {
+    width: 730px;
+    float: right;
+}
+
+.title-bottom {
+    background: url("../images/img11.png") no-repeat top center;
+    overflow: hidden;
+}
+
+.title-bottom a.btn {
+    background: url("../images/btn3.png") no-repeat scroll center top transparent;
+    display: block;
+    height: 49px;
+    width: 200px;
+    float: left;
+}
+
+.title-bottom a.btn span {
+    color: #FFFFFF;
+    display: block;
+    font-size: 24px;
+    line-height: 47px;
+    text-align: center;
+}
+
+.title-bottom ul {
+    float: right;
+    padding: 10px 0 0;
+}
+
+.title-bottom ul li {
+    color: #FFFFFF;
+    float: left;
+    font-size: 23px;
+    padding: 0 7px;
+}
+
+.title-bottom ul li span {
+}
+
+.title-bottom ul li span small {
+    border-right: 1px solid #fff;
+}
+
+.title-bottom ul li span small.last {
+    border: none;
+}
+
+.title-bottom ul li img {
+    margin: 5px 0 0 0;
+}
+
+.title-bottom ul li a.contact {
+    font-size: 15px;
+    color: #83A089;
+}
+
+/***********products-wrapper*****/
+.products-wrapper {
+    width: 436px;
+	background:#FFF;
+    float: left;
+    padding: 12px 0 0 14px;
+}
+
+.products-wrapper h5 {
+	color: #060;
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 6px;
+}
+
+ul.product {
+    overflow: hidden;
+    padding-bottom: 14px
+}
+
+ul.product.last {
+    padding-bottom: 0px;
+}
+
+ul.product li {
+    float: left;
+    padding-right: 25px;
+}
+
+ul.product li.last {
+    padding-right: 0px;
+}
+
+ul.product li img {
+    display: block;
+}
+
+a.product {
+    clear: both;
+    color: #000000;
+    float: left;
+    font-size: 10px;
+    margin: 0 0 0 7px;
+}
+
+.buy {
+    background-color: #DDE3DD;
+    float: right;
+    width: 280px;
+    padding-bottom: 39px;
+}
+
+form.bottom-form.sub {
+    background-color: #DADFD9;
+    margin: 0;
+    padding: 0 0 39px 13px;
+}
+
+form.bottom-form.sub legend {
+    text-indent: 84px;
+}
+
+form.bottom-form.sub #ot {
+    float: right;
+    font-size: 11px;
+    margin: -48px 22px 0 0;
+    width: 120px;
+}
+
+
+form.bottom-form {
+    margin: 18px 0 0 8px;
+    position: relative;
+}
+
+form.bottom-form legend {
+    text-indent: 61px;
+}
+
+form.bottom-form label {
+    color: #006325;
+    font-size: 12px;
+    width: 70px;
+    display: block;
+    float: left;
+}
+
+form.bottom-form .row {
+    margin: 10px 0 -2px 8px;
+    overflow: hidden;
+    width: 248px;
+    float: left;
+}
+
+form.bottom-form .row label {
+}
+
+form.bottom-form .row span.input-bottom {
+    display: block;
+    float: right;
+    width: 175px;
+    height: 23px;
+    background: url("../images/input4.png") no-repeat top center;
+}
+
+form.bottom-form .row span.input-bottom.sub {
+    width: 132px;
+    height: 23px;
+    background: url("../images/input3.png") no-repeat top center;
+}
+
+form.bottom-form .row span.input-bottom input {
+    background: none;
+    width: 132px;
+    height: 23px;
+}
+
+form.bottom-form .row #excp {
+    width: 110px;
+}
+
+form.bottom-form span.textarea-bottom {
+    background: url("../images/input5.png") no-repeat scroll center top transparent;
+    float: right;
+    height: 54px;
+    width: 175px;
+}
+
+form.bottom-form span.textarea-bottom {
+    background: url("../images/input8.jpg") no-repeat scroll center top transparent;
+    float: right;
+    height: 106px;
+    width: 178px;
+}
+
+form.bottom-form span.textarea-bottom textarea {
+    background: none;
+   height: 106px;
+    width: 179px;
+}
+
+form.bottom-form .row.sub {
+    height: 17px;
+    margin: 5px 0 0 8px;
+    overflow: visible;
+    width: 190px;
+}
+
+form.bottom-form.sub .row.sub {
+    height: 17px;
+    margin: 16px 0 0 8px;
+    overflow: visible;
+    width: 190px;
+}
+
+form.bottom-form .row.sub label {
+    width: auto;
+}
+
+form.bottom-form .row.sub span.submit2 {
+    background: url("../images/btn2.png") no-repeat scroll center 3px transparent;
+    float: right;
+    height: 25px;
+    width: 95px;
+    color: #fff;
+	display:block;
+	overflow:hidden;
+	padding:0px;
+	
+}
+*+ html form.bottom-form .row.sub span.submit2{
+   padding:1px 0 0 0;
+}
+form.bottom-form .row.sub span.submit2 input {
+    background: none repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    height: 22px;
+    line-height: 5px;
+    padding: 0 9px;
+    width: 86px;
+	display:block;
+}
+
+form.bottom-form #opt {
+    font-size: 10px;
+    margin: 7px 0 0 6px;
+    width: auto;
+}
+
+form.bottom-form .radio {
+    clear: both;
+    padding: 15px 0 0 6px;
+    overflow: hidden;
+	width:85px;
+}
+
+form.bottom-form .radio span {
+    font-size: 12px;
+    color: #006325;
+	float:left;
+    width: auto;
+}
+form.bottom-form.sub .radio {
+    clear: none;
+    float: right;
+    margin: -10px 0 0;
+    overflow: hidden;
+    padding: 0 38px 0 0;
+    width: 85px;
+}
+
+form.bottom-form .radio input.radio {
+    clear: none;
+    float: left;
+    margin: 0;
+    overflow: visible;
+    margin: 0 8px 0 0;
+	width:auto;
+	padding:0px;
+}
+
+form.bottom-form input.submit3 {
+    background-color: #FFD300;
+    bottom: -15px;
+    font-size: 17px;
+    height: 40px;
+    position: absolute;
+    right: 54px;
+    width: 127px;
+}
+
+form.bottom-form.sub input.submit3 {
+    bottom: 15px;
+    height: 33px;
+    right: 45px;
+    width: 89px;
+}
+
+/****************sidebar***********/
+.sidebar {
+    background: url("../images/img25.jpg") no-repeat scroll left bottom #10482C;
+    float: right;
+    margin: -7px 0px 0 17px;
+    width: 214px;
+}
+
+.box-sidebar {
+    border-bottom: 2px solid #FF9F00;
+    padding: 28px 0 13px 21px;
+}
+
+.box-sidebar h4 {
+    color: #FF9F00;
+    font-size: 18px;
+    padding-bottom: 18px;
+}
+
+.box-sidebar h5 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.box-sidebar img {
+    margin: 7px 0 0;
+}
+
+.box-sidebar p {
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 5px 0 0;
+    width: 193px;
+}
+
+.box-sidebar.add {
+    background: url("../images/img24.jpg") no-repeat scroll 145px 10px transparent;
+    border-bottom: 3px solid #FF9F00;
+    padding: 9px 0 1px 21px;
+}
+
+.box-sidebar.add ul {
+}
+
+.box-sidebar.add ul li {
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.box-sidebar.add ul li strong {
+    font-size: 18px;
+}
+
+.box-sidebar.add a.btn-add {
+    display: block;
+    height: 43px;
+    width: 107px;
+    background: url("../images/btn4.png") no-repeat top center;
+    margin: 3px 0 0 -7px;
+}
+
+.box-sidebar.contact {
+    border-bottom: 5px solid #FF9F00;
+    padding: 19px 0 20px 0;
+}
+
+.box-sidebar.contact .text {
+    background: url("../images/img23.jpg") no-repeat scroll 88px 2px transparent;
+}
+
+.box-sidebar.contact .text ul {
+    overflow: hidden;
+    padding: 30px 0 3px;
+}
+
+.box-sidebar.contact .text ul li {
+    border-right: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    float: left;
+    font-size: 16px;
+    padding: 0 4px;
+}
+
+.box-sidebar.contact .text ul li.last {
+    border: none;
+}
+
+.box-sidebar.contact .text a.contact {
+    color: #83A089;
+    display: block;
+    font-size: 15px;
+    margin: 0 0 0 27px;
+    text-align: center;
+}
+
+.box-sidebar.contact .text a.btn-contact {
+    background: url("../images/btn1.png") no-repeat scroll center top transparent;
+    display: block;
+    height: 33px;
+    margin: 25px 0 0 33px;
+    width: 165px;
+}
+
+.box-sidebar.last {
+    overflow: hidden;
+    padding: 25px 0 12px 23px;
+    border: none;
+}
+
+.box-sidebar.last form.sidebar {
+    background: none repeat scroll 0 0 transparent;
+    margin: 0;
+    width: 100%;
+}
+
+.box-sidebar.last form.sidebar legend {
+}
+
+.box-sidebar.last form.sidebar .row {
+    color: #FFFFFF;
+    overflow: hidden;
+    padding-bottom: 32px;
+}
+
+.box-sidebar.last form.sidebar .row.last {
+    padding-bottom: 0px;
+}
+
+.box-sidebar.last form.sidebar .row label {
+    color: #fff;
+}
+
+.box-sidebar.last form.sidebar .row span.search1 {
+    background: url("../images/input6.jpg") no-repeat scroll center top transparent;
+    display: block;
+    height: 32px;
+    margin: 8px 0 0 5px;
+    width: 163px;
+	
+}
+
+.box-sidebar.last form.sidebar .row span.search1 input {
+    background: none;
+    width: 128px;
+    height: 32px;
+	margin-left:10px;
+}
+
+.box-sidebar.last form.sidebar .row span.box-sidebar {
+    background: url("../images/input7.png") no-repeat scroll center top transparent;
+    border: medium none;
+    color: #9F9F9F;
+    display: block;
+    font-size: 12px;
+    font-style: normal;
+    height: 29px;
+    margin: 9px 0 22px 5px;
+    padding: 0;
+    width: 155px;
+}
+
+.box-sidebar.last form.sidebar .row span.box-sidebar input {
+    background: none;
+    width: 155px;
+    color: #9F9F9F;
+    font-size: 12px;
+    height: 26px;
+    padding: 4px 13px;
+}
+.box-sidebar.last form.sidebar .row span.box-sidebar input:focus{
+	outline:none;
+}
+.wrapper input:focus{
+	outline:none;
+}
+.box-sidebar.last form.sidebar input.box-sidebar-btn {
+    background-color: #666666;
+    color: #FFCF00;
+    display: block;
+    font-size: 14px;
+    margin: -5px 0 0 37px;
+    padding: 5px 8px;
+}
+
+/***********foooter*********/
+.footer {
+    background-color: #83A089;
+    overflow: hidden;
+    clear: both;
+}
+
+.footer p {
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 14px;
+    padding: 16px 0 12px 33px;
+    width: 700px
+}
+
+.footer a {
+    display: block;
+    float: right;
+    margin: 14px 12px 0 0;
+}
+
+.footer a img {
+    display: block;
+    float: right;
+}
+
+#carrito li{ margin-top:5px;}
+#carrito a{ color:#fff; float:left; margin-right:5px; margin-top:2px;}
+
+.left-bottom sub .box .img a{border:1px solid red;}
+
+div.upload {
+   position: relative;
+   width: 250px;
+   height: 24px;
+   /*overflow:hidden;
+   background:url(../images/examinar.jpg) left top no-repeat;
+   clip:rect(0px, 80px, 24px, 0px );*/
+   margin-left:0px;
+   display:inline-block;
+}  
+
+div.upload input {
+   position: relative;
+   left: auto;
+   right: 0px;
+   top: 0px;
+   margin:0;
+   padding:0;
+  
+  /* filter: Alpha(Opacity=0);
+   -moz-opacity: 0;
+   opacity: 0;*/
+}

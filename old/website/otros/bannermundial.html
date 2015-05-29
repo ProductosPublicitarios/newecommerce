@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			@keyframes sombra {
+				from{
+					transform:scale(1);
+					opacity:1;
+					text-shadow: 
+				}/*cierra from*/
+				
+				50%{
+					transform : scale(0.95);
+					opacity   : 0.9;
+				}
+				
+				to{
+					transform : scale(1);
+					opacity   : 1;
+				}
+			} /*cierra keyframes */
+			
+			@-webkit-keyframes sombra {
+				0%   { -webkit-transform: scale(1)   ; 
+						opacity: 1;    }
+				50%  { -webkit-transform: scale(0.95); 
+						opacity: 0.9; }
+				100% { -webkit-transform: scale(1)   ; 
+						opacity: 1;    }
+			}
+			
+			#banner {	
+				width: 400px;
+				height: 55px;
+				font-family: Arial, Sans-serif;
+				font-size: 21px;
+				text-align: center;
+				
+				background: rgb(14,99,255); /* Old browsers */
+				background: -moz-linear-gradient(-45deg,  rgba(14,99,255,1) 4%, rgba(50,164,252,1) 53%, rgba(81,184,255,1) 53%, rgba(150,213,255,1) 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, right bottom, color-stop(4%,rgba(14,99,255,1)), color-stop(53%,rgba(50,164,252,1)), color-stop(53%,rgba(81,184,255,1)), color-stop(100%,rgba(150,213,255,1))); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(-45deg,  rgba(14,99,255,1) 4%,rgba(50,164,252,1) 53%,rgba(81,184,255,1) 53%,rgba(150,213,255,1) 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(-45deg,  rgba(14,99,255,1) 4%,rgba(50,164,252,1) 53%,rgba(81,184,255,1) 53%,rgba(150,213,255,1) 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(-45deg,  rgba(14,99,255,1) 4%,rgba(50,164,252,1) 53%,rgba(81,184,255,1) 53%,rgba(150,213,255,1) 100%); /* IE10+ */
+				background: linear-gradient(135deg,  rgba(14,99,255,1) 4%,rgba(50,164,252,1) 53%,rgba(81,184,255,1) 53%,rgba(150,213,255,1) 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e63ff', endColorstr='#96d5ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */	
+			}
+			
+			#banner p{
+				-webkit-animation-name: sombra;
+				-webkit-animation-duration: 5s;	
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-delay: 1s;
+				-webkit-animation-direction: alternate;
+				
+				animation-name: sombra;
+				animation-duration: 5s;	
+				animation-iteration-count: infinite;
+				animation-delay: 1s;
+				animation-direction: alternate;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="banner">
+			<p> Descargar Catálogo Mundial </p>
+		</div>
+	</body>
+</html>

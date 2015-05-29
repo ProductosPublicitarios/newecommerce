@@ -1,0 +1,140 @@
+.cfx{clear:both};
+*{font-family: Arial, Helvetica, sans-serif;	font-size: 12px;	color: #333;}
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+}
+body {
+	background-color: #ffffff;
+	background-image: url(../img/bg.jpg);
+	background-repeat: repeat-x;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#cont{
+	position:relative;
+	width:980px;
+	background-color:#fff;
+	margin:auto;
+	padding:10px;
+}
+	#logo{
+		position:relative;
+		width:99px;
+		height:63px;
+		background-image:url(../img/logo.png);
+		background-repeat:no-repeat;
+		background-position:center;
+	}
+	#menu{
+		font-size:12px;
+		font-weight:bold;
+		list-style-type:none;
+		padding:0;
+		
+	}
+		#menu li{
+			float:left;
+			margin-bottom:10px;
+		}
+		#menu li a{
+			display:block;
+			padding:2px;
+			color:#333;
+			margin-right:10px;
+			background-color:#c0d4c0;
+			text-align:center;
+			padding:4px;
+			border:1px solid #aaa;
+			text-decoration:none;
+		}
+		#menu li a:hover{background-color:#619365;color:#fff;}
+		#menu li a.activo{background-color:#619365;color:#fff;}
+form{
+	width:300px;
+	margin:auto;
+}
+input, textarea{
+	padding:2px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	height:16px;
+	width:700px;
+	margin:2px;
+}
+#iptimg{
+	width:500px;
+	border:1px solid red;
+	height:20px;
+}
+textarea{height:160px;}
+#tags{height:60px;}
+.xs{width:80px;}
+label{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	display:block;
+	width:80px;
+	height:18px;
+	margin-bottom:10px;
+	margin-right:4px;
+	padding:2px;
+	background-color:#E4EBE2;
+	float:left;
+}
+#envio,#cancel{
+	width:140px;
+	height:20px;
+	color:#333;
+	background-color:#fff;
+	border:1px solid #aaa;
+}
+#envio:hover,#cancel:hover{background-color:#aaa;color:#fff;}
+#message{
+	color:#076324;
+	font-weight:bold;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color:#6C6;
+}
+
+
+TABLE TR TD{
+	background-color:#E2F4DF;
+	font-size:12px;
+}
+TH{
+	background-color:#619365;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#fff;
+}
+TABLE.lft TR TH{text-align:left;}
+TABLE a{color:#000; text-decoration:none;}
+TABLE a:hover{color:#666; text-decoration:underline;}
+TABLE a.wht{color:#fff; text-decoration:none;}
+TABLE a.wht:hover{color:#fff; text-decoration:underline;}
+#submenu{text-align:left;}
+#submenu #ver_solo{float:right;}
+#submenu a{color:#333; text-decoration:none; font-size:11px;}
+#submenu a:hover{color:#000; text-decoration:underline;}
+TR:hover{background-color:#099;}
+TR.data:hover{background-color:#000;}
+
+input.cbx{
+	width:20px;
+}
+label.lbl_cmn{
+	
+	
+}
+input.file{
+	height:22px;
+	background-color:#fff;
+	border:1px solid #fff;
+}
+textarea.ta_big{height:300px;}

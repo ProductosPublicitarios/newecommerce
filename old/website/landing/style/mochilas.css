@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#header {
+		background-image:url(img/mochilas/headers-11.png);
+}
+
+#right {
+	background-image: url(img/mochilas/mochilas.jpg);
+	}

@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+						
+			@keyframes fondo {
+				from{
+					background-image: linear-gradient(transparent 0%, rgba(255,255,255,.5) 5%);
+					background-size: 5% 5%;
+					
+				}
+				
+				50%{
+					background-image: linear-gradient(transparent 0%, rgba(255,255,255,.5) 5%);
+					background-size: 50% 5%;
+				}
+				
+				to{
+					background-image: linear-gradient(transparent 0%, rgba(255,255,255,.5) 5%);
+					background-size: 100% 5%;
+				}
+			} /*cierra keyframes */
+			
+			@-webkit-keyframes fondo {
+				0%   {background-image: linear-gradient(transparent 0%, rgba(255,255,255,.5) 5%); 
+				background-size: 5% 5%;}
+				
+				50%  {background-image: linear-gradient(transparent 0%, rgba(255,255,255,.5) 5%); 
+				background-size: 50% 5%;}
+				
+				100% {background-image: linear-gradient(transparent 0%, rgba(255,255,255,.5) 5%); 
+				background-size: 5% 5%;}
+			}
+			
+			
+						
+			#banner {	
+				width: 400px;
+				height: 42px;
+				padding-top: 13px;
+				font-family: Arial, Sans-serif;
+				font-size: 21px;
+				text-align: center;
+				
+				background-color: #0e63ff;
+				
+				-webkit-animation-name: fondo;
+				-webkit-animation-duration: 5s;	
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-delay: 1s;
+				-webkit-animation-direction: alternate;
+				-webkit-animation-timing-function: ease-in-out;
+				
+				animation-name: fondo;
+				animation-duration: 5s;	
+				animation-iteration-count: infinite;
+				animation-delay: 1s;
+				animation-direction: alternate;
+				animation-timing-function: ease-in-out;
+			}
+			
+			#banner p{
+				text-transform: uppercase;	
+				color: white;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="banner">
+			<p> Descargar Catálogo Mundial </p>
+		</div>
+	</body>
+</html>

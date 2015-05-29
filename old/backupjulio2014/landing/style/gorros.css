@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+Body {
+		background-image: url(img/fondoremeras.png);
+}	
+
+#header {
+		background-image: url(img/gorros/headers-12.png);
+}
+
+#right {
+		background-image:url(img/gorros/Gorros.jpg)
+}

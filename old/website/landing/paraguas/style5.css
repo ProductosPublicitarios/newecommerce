@@ -1,0 +1,248 @@
+Body {
+	border-top: 7px solid #333333;
+	margin: 0px;
+	padding: 0px;
+}
+
+.pagecontainer {
+	width: 850px;
+	padding: 20px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+}
+
+A:link, A:visited, A:active { 
+	text-decoration: none;
+	color:#333333;
+
+ }
+
+h1 {
+	font-size:72px;
+	text-align:center;
+	padding-right:15px;
+	color:#333333;
+	width: 500px;
+}
+
+h2 {
+	font-size:36px;
+	background-color: #99cccc;
+	border: 2px solid #333333;
+	color: #333333;	
+	text-align:center;
+	width:300px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h3 {
+	font-size:36px;
+	text-align:center;
+	color: #333333;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.Estilo2 {
+	font-size: 10px;
+	width: 300px;
+	text-align: left;
+	text-indent: 50px;
+}
+
+
+#left {
+	height: auto;
+	width: 564px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left:50px;
+	float:left;
+}
+
+#telefono {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #003333;
+	width:300px;
+	height:135px;
+	text-align: center;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#header {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #000000;
+	margin-right: auto;
+	margin-left: auto;
+	text-align:right;
+	width: 520px;
+}
+
+
+#page-wrap {
+	width: 460px;
+	background: white;
+	padding: 20px 50px 20px 50px;
+	margin: 20px auto;
+	min-height: 500px;
+	height: auto !important;
+	height: 500px;
+}
+
+
+#contact-area {
+	width: 350px;
+	font-family: Helvetica, sans-serif;
+	height:auto !important;
+	height:360px;
+	margin-top:0px;
+	margin-bottom:30px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left: 105px;
+	padding-right: 105px;
+	position: static;
+}
+
+#contactfooter {
+	width: 250px;
+	height: auto;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 210px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	margin-left: 230px;
+	align:right;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #333333;
+}
+
+#info {
+	float: right;
+	height: 350px;
+	width: 400px;
+	padding-top:30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 19px;
+	font-weight: bold;
+	color: #666666;
+}
+
+
+#footer {
+	padding: 15px;
+	font-family: "Trebuchet MS", arial, sans-serif;
+	font-size: 16px;
+	color: #666666;
+	width: 850px;
+	height: 70px;
+	margin-top: 25px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 0px;
+
+}	
+
+#links {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+	border-bottom: 7px solid #ccc;
+	padding: 0px;
+}
+
+iframe {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+.bandas {
+	background-image: url(background4.png);
+	background-repeat: repeat-x;
+	height: 25px;
+	width: 850px;
+}
+
+.bandas2 {
+	background-image: url(background4.png);
+	background-repeat: repeat-x;
+	height: 25px;
+	width: 100%;
+}
+
+#right {
+	height: 1000px;
+	width: 200px;
+	float: right;
+}
+
+#caja1 {
+	height: 20%;
+	width: 200px;
+	background-image:url(imagenes/golf.jpg);
+}
+
+#caja2 {
+	height: 20%;
+	width: 200px;
+	background-image:url(imagenes/ejecutivo.jpg);
+}
+
+#caja3 {
+	height: 20%;
+	width: 200px;
+	background-image:url(imagenes/moderno.jpg);
+}
+
+#caja4 {
+	height: 20%;
+	width: 200px;
+	background-image:url(imagenes/eco.jpg);
+}
+
+#caja5 {
+	height: 20%;
+	width: 200px;
+	background-image:url(imagenes/sup.jpg);
+}
+

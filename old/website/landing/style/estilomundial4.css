@@ -1,0 +1,293 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: helvetica,arial, sans-serif;
+	font-size: 15px;
+	background-color: rgba(43,136,217,.05);
+	background-image: repeating-linear-gradient(90deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+	padding-top: 20px;
+}
+
+p{
+	color: rgba(107,106,107,1);
+	line-height: 1.2em;
+}
+
+a img{
+	border:0;
+}
+
+a{
+	text-decoration: none;
+	color: rgba(59,103,158,1);
+}
+
+h1{
+	font-family: 'Rokkitt', serif;
+	font-size: 40px;
+	font-weight: 700;
+	float: right;
+	display: block;
+		
+	text-transform: uppercase;
+	color: rgba(59,103,158,1);
+	letter-spacing:1px;
+	display: block;
+	width: 425px;
+	text-shadow: #4F4F4F 1px 1px 2px;
+	
+	padding-left: 5px;
+	padding-top: 10px;
+	border-left: 1px solid rgba(59,59,59, 1);
+	
+}
+
+h2{
+	font-family: 'Rokkitt', serif;
+	font-size: 28px;
+	font-weight: 700;
+	color: rgba(59,103,158,1);
+}
+
+h3{
+	font-family: 'Rokkitt', serif;
+	font-size: 20px;
+	font-weight: 700;
+	font-variant: italic;
+	color: rgba(59,103,158,1);
+}
+
+header{
+	margin-top:5px;
+	margin-left: 15px;
+	width: 550px;
+	display: block;
+	float: left;
+	padding-top: 10px ;
+	
+}
+
+#sub{
+	clear: both;
+	background-color: rgba(43,136,217,.1);
+	width: 800px;
+	height: 140px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+ 
+ 
+#telefono{
+	width: 220px;
+	height: 130px;
+	float: right;
+	margin-right: auto; 
+	margin-left: auto;
+	padding-top: 10px;
+	
+	color: rgba(255,169,0,1);
+	/*anterior rgba(59,59,59,1);*/
+	
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Rokkitt', serif;
+	
+	text-shadow: white 0.05em 0.05em 0.1em;
+	
+	/*border-bottom: 1px solid rgba(59,103,158,1);*/
+	
+	background: rgba(255,255,255,.5);
+
+}
+
+#telefono h2{
+	color:rgba(229,152,0,1);
+	/*text-transform:uppercase;*/
+}
+
+header img{
+	display: block;
+	float: left;
+	margin-top: 10px;
+}
+
+
+
+#container {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	clear:both;
+}
+
+
+#left {
+	width: 465px;
+	float: right;
+}
+
+
+#right{
+	width: 335px;
+	float: left;
+	background: rgba(43,136,217,.1);
+	padding: 10px 0;
+}
+
+
+
+#accesorios{
+	clear: both;
+	width: 800px;
+	height: 100px;
+	border-top: 1px solid #231a9c;
+	padding-top:20px;
+	margin-bottom: 10px;
+}
+
+#boxes{
+	width: 460px;
+	height: auto;
+	float: right;
+	
+}
+
+.box1{
+	width: 130px;
+	/*height: 150px;*/
+	height: auto;
+	float: left;
+	/*border-left: 1px solid #231a9c;*/
+	/*border-bottom: 1px solid #231a9c;*/ 
+	padding: 20px 10px;
+	/*las cajitas que tienen iconitos se supone que tienen que flotar  para alinearse una al lado de la otra. El contenedor tiene 480px, por lo que cada caja,
+con margin y padding incluido tiene que sumar 160px	*/
+}
+
+#foto{
+	padding: 0 10px;
+}
+
+#accesorios #generales{
+	width:40%;
+	float:left;
+	padding: 0 1%;
+}
+#accesorios #beneficios{
+	width: 40%;
+	float:left;
+	padding: 0 1%;
+}
+
+
+#accesorios #comunidad {
+	width:16%;
+	float:right;
+}
+
+
+/*declaraciones correspondientes al contact form*/
+
+
+#contactform{
+	width: 310px;
+	font-family: Helvetica, sans-serif;
+	height:auto !important;
+	padding-left: 0px;
+	padding-right:10px;
+	margin-top: 15px;
+	/*border-left: 1px solid #231a9c;*/
+	
+}
+
+#contactform  a{
+	display: block;
+	clear: both;
+	text-decoration: none;
+	font-size: 12px;
+	color: black;
+	text-align: right;
+	
+}
+
+
+#contactform h2 {
+	margin-left: 17px;
+	color: rgba(59,103,158,1);
+	
+}
+
+#contactform input, #contactform textarea {
+	padding: 5px;
+	width: 200px;
+	font-family: Helvetica, sans-serif;
+	border: 2px solid #ccc;
+	margin: 5px 0px;
+	float: right; 
+	border-radius: 2px;	
+}
+
+
+#contactform .etiqueta{
+	float: left;
+	text-align: right;
+	width: 85px;
+	padding-top: 5px;
+	font-size: 20px;
+	color:#333333;
+	font-size: 15px;
+	margin: 5px 5px;
+}
+
+.fila {
+	width: 310px;
+	display:block;
+	height: 35px;
+	clear: both;
+}
+
+#contactform .submit-button, .boton {
+	background: #ffa84c; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffa84c 0%, #ff7b0d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffa84c), color-stop(100%,#ff7b0d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffa84c 0%,#ff7b0d 100%); /* Chrome10+,Safari5.1+ */	
+	background: -o-linear-gradient(top, #ffa84c 0%,#ff7b0d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffa84c 0%,#ff7b0d 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffa84c 0%,#ff7b0d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 ); /* IE6-9 */
+	border-radius: 9px;	
+	color: white;
+	display: block;
+	clear: both;
+	padding: 10px;
+	height: 40px;
+	text-transform:uppercase;	
+}
+/*para el boton de contacthanks */
+.boton{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 200px;
+	margin-top: 20px;
+}
+
+#contactform .submit-button{
+	width: 95%;
+
+}
+
+footer {
+	width: 100%;
+	height: 60px;
+	clear: both;
+	background: rgba(43,136,217,.1);
+	padding-top: 10px;
+	text-align: center;
+	margin-top: 10px;
+}

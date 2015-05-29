@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			
+			@keyframes sombra {
+				from{
+					transform:scale(1);
+					opacity:1;
+					text-shadow: 
+				}/*cierra from*/
+				
+				50%{
+					transform : scale(0.95);
+					opacity   : 0.9;
+				}
+				
+				to{
+					transform : scale(1);
+					opacity   : 1;
+				}
+			} /*cierra keyframes */
+			
+			@-webkit-keyframes sombra {
+				0%   { -webkit-transform: scale(1)   ; 
+						opacity: 1;    }
+				50%  { -webkit-transform: scale(0.95); 
+						opacity: 0.9; }
+				100% { -webkit-transform: scale(1)   ; 
+						opacity: 1;    }
+			}
+			
+			#banner {	
+				width: 400px;
+				height: 42px;
+				padding-top: 13px;
+				font-family: Arial, Sans-serif;
+				font-size: 21px;
+				text-align: center;
+				
+				background: #0e63ff; /* Old browsers */
+				background: -moz-linear-gradient(top,  #0e63ff 0%, #32a4fc 51%, #51b8ff 52%, #96d5ff 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0e63ff), color-stop(51%,#32a4fc), color-stop(52%,#51b8ff), color-stop(100%,#96d5ff)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #0e63ff 0%,#32a4fc 51%,#51b8ff 52%,#96d5ff 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #0e63ff 0%,#32a4fc 51%,#51b8ff 52%,#96d5ff 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #0e63ff 0%,#32a4fc 51%,#51b8ff 52%,#96d5ff 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #0e63ff 0%,#32a4fc 51%,#51b8ff 52%,#96d5ff 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e63ff', endColorstr='#96d5ff',GradientType=0 ); /* IE6-9 */
+
+			}
+			
+			#banner p{
+				-webkit-animation-name: sombra;
+				-webkit-animation-duration: 5s;	
+				-webkit-animation-iteration-count: infinite;
+				-webkit-animation-delay: 1s;
+				-webkit-animation-direction: alternate;
+				
+				animation-name: sombra;
+				animation-duration: 5s;	
+				animation-iteration-count: infinite;
+				animation-delay: 1s;
+				animation-direction: alternate;
+				
+				text-transform: uppercase;	
+				color: white;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="banner">
+			<p> Descargar Catálogo Mundial </p>
+		</div>
+	</body>
+</html>

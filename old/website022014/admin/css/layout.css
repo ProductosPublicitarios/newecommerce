@@ -1,0 +1,178 @@
+
+#colorin .wrapper {
+	width: 700px;
+	margin: 0 auto;
+	text-align: left;
+}
+#colorin h1 {
+	font-size: 21px;
+	height: 47px;
+	line-height: 47px;
+	text-transform: uppercase;
+}
+#colorin .navigationTabs {
+	height: 23px;
+	line-height: 23px;
+	border-bottom: 1px solid #ccc;
+}
+#colorin .navigationTabs li {
+	float: left;
+	height: 23px;
+	line-height: 23px;
+	padding-right: 3px;
+}
+#colorin .navigationTabs li a{
+	float: left;
+	dispaly: block;
+	height: 23px;
+	line-height: 23px;
+	padding: 0 10px;
+	overflow: hidden;
+	color: #52697E;
+	background-color: #eee;
+	position: relative;
+	text-decoration: none;
+}
+#colorin .navigationTabs li a:hover {
+	background-color: #f0f0f0;
+}
+#colorin .navigationTabs li a.active {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-bottom: 0px solid;
+}
+#colorin .tabsContent {
+	border: 1px solid #ccc;
+	border-top: 0px solid;
+	width: 698px;
+	overflow: hidden;
+}
+#colorin .tab {
+	padding: 16px;
+	display: none;
+}
+#colorin .tab h2 {
+	font-weight: bold;
+	font-size: 16px;
+}
+#colorin .tab h3 {
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 20px;
+}
+#colorin .tab p {
+	margin-top: 16px;
+	clear: both;
+}
+#colorin .tab ul {
+	margin-top: 16px;
+	list-style: disc;
+}
+#colorin .tab li {
+	margin: 10px 0 0 35px;
+}
+#colorin .tab a {
+	color: #8FB0CF;
+}
+#colorin .tab strong {
+	font-weight: bold;
+}
+#colorin .tab pre {
+	font-size: 11px;
+	margin-top: 20px;
+	width: 668px;
+	overflow: auto;
+	clear: both;
+}
+#colorin .tab table {
+	width: 100%;
+}
+#colorin .tab table td {
+	padding: 6px 10px 6px 0;
+	vertical-align: top;
+}
+#colorin .tab dt {
+	margin-top: 16px;
+}
+
+#colorin #colorSelector {
+	position: relative;
+	width: 36px;
+	height: 36px;
+	background: url(../images/select.png);
+}
+#colorin #colorSelector div {
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: 30px;
+	height: 30px;
+	background: url(../images/select.png) center;
+}
+#colorin #colorSelector2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 36px;
+	height: 36px;
+	background: url(../images/select2.png);
+}
+#colorin #colorSelector2 div {
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	width: 28px;
+	height: 28px;
+	background: url(../images/select2.png) center;
+}
+#colorin #colorpickerHolder2 {
+	top: 32px;
+	left: 0;
+	width: 356px;
+	height: 0;
+	overflow: hidden;
+	position: absolute;
+}
+#colorin #colorpickerHolder2 .colorpicker {
+	background-image: url(../images/custom_background.png);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#colorin #colorpickerHolder2 .colorpicker_hue div {
+	background-image: url(../images/custom_indic.gif);
+}
+#colorin #colorpickerHolder2 .colorpicker_hex {
+	background-image: url(../images/custom_hex.png);
+}
+#colorin #colorpickerHolder2 .colorpicker_rgb_r {
+	background-image: url(../images/custom_rgb_r.png);
+}
+#colorin #colorpickerHolder2 .colorpicker_rgb_g {
+	background-image: url(../images/custom_rgb_g.png);
+}
+#colorin #colorpickerHolder2 .colorpicker_rgb_b {
+	background-image: url(../images/custom_rgb_b.png);
+}
+#colorin #colorpickerHolder2 .colorpicker_hsb_s {
+	background-image: url(../images/custom_hsb_s.png);
+	display: none;
+}
+#colorin #colorpickerHolder2 .colorpicker_hsb_h {
+	background-image: url(../images/custom_hsb_h.png);
+	display: none;
+}
+#colorin #colorpickerHolder2 .colorpicker_hsb_b {
+	background-image: url(../images/custom_hsb_b.png);
+	display: none;
+}
+#colorin #colorpickerHolder2 .colorpicker_submit {
+	background-image: url(../images/custom_submit.png);
+}
+#colorin #colorpickerHolder2 .colorpicker input {
+	color: #778398;
+}
+#colorin #customWidget {
+	position: relative;
+	height: 36px;
+}

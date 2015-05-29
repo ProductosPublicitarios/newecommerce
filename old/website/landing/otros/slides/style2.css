@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en"> 
+
+<head> 
+<meta charset="UTF-8"> 
+<title>slide</title> 
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+<script src="js/jquery-1.6.2.min.js"></script> 
+<script src="js/jquery.cycle.lite.js"></script> 
+
+<script type="text/javascript"> $(document).ready(function() { $('.slideshow').cycle({ fx: 'fade', speed: 1000, timeout: 5000, next: '.next_slide', prev: '.prev_slide' }); }); </script>
+
+</head> 
+
+<body> 
+
+<div class="container"> 
+
+		<div class="slideshow"> 
+        <img src="img/1033_perla.jpg" /> 
+        <img src="img/3006_mix.jpg" /> 
+        <img src="img/3004_eco grande.jpg" /> 
+        <img src="img/3006_mix.jpg" /> 
+        <img src="img/1033_perla.jpg" /> 
+        </div>
+        <!-- end slideshow images --> 
+        
+        <div class="buttons"> 
+        	<span class="prev_slide">&laquo;</span> 
+            <span class="next_slide">&raquo;</span> 
+        </div> 
+
+
+</div>
+<!-- end container --> 
+
+</body> 
+
+</html>
+

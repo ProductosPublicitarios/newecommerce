@@ -1,0 +1,199 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: helvetica,arial, sans-serif;
+	font-size: 15px;
+	background: -moz-linear-gradient(top, rgba(234,223,203,0.76) 0%, rgba(235,224,205,1) 1%, rgba(255,255,255,1) 23%, rgba(255,255,255,1) 99%, rgba(255,255,255,0.25) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(234,223,203,0.76)), color-stop(1%,rgba(235,224,205,1)), color-stop(23%,rgba(255,255,255,1)), color-stop(99%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0.25))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(234,223,203,0.76) 0%,rgba(235,224,205,1) 1%,rgba(255,255,255,1) 23%,rgba(255,255,255,1) 99%,rgba(255,255,255,0.25) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(234,223,203,0.76) 0%,rgba(235,224,205,1) 1%,rgba(255,255,255,1) 23%,rgba(255,255,255,1) 99%,rgba(255,255,255,0.25) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(234,223,203,0.76) 0%,rgba(235,224,205,1) 1%,rgba(255,255,255,1) 23%,rgba(255,255,255,1) 99%,rgba(255,255,255,0.25) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(234,223,203,0.76) 0%,rgba(235,224,205,1) 1%,rgba(255,255,255,1) 23%,rgba(255,255,255,1) 99%,rgba(255,255,255,0.25) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2eadfcb', endColorstr='#40ffffff',GradientType=0 ); /* IE6-9 */
+	border-top: 3px solid #EE710D;
+}
+
+p{
+	color: rgba(96,100,109,1);
+	line-height: 1.3em;
+}
+
+h1{
+	font-family: 'Rokkitt', serif;
+	font-size: 48px;
+	font-weight: 700;
+	float: left;
+	margin-left: 20px;	
+	display: block;
+	width: 300px;
+	text-transform: uppercase;
+	color: #004300;
+}
+
+h2{
+	font-family: 'Rokkitt', serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: rgba(58,58,73,1);
+}
+
+header img{
+	display: block;
+	float: left;
+	margin-top: 10px;
+}
+
+#container {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#left {
+	width: 480px;
+	float: left;
+}
+
+#right{
+	width: 320px;
+	float: right;
+}
+
+h1, #telefono{
+	line-height: 57px;
+}
+#telefono{
+	width: 100%;
+	height: 105px;
+	/*float:right;*/
+	text-align: center;
+	color: white;
+	/*padding: 20px 0 0 0;*/
+	text-shadow: 0px 0px 5px rgba(255, 255, 255, .5);
+	margin-top: 3px;	
+	background: #ffa84c; /* Old browsers */
+}
+
+#telefono h2{
+	color: white;
+	text-transform:uppercase;
+	font-size: 37px;
+}
+
+#accesorios{
+	clear: both;
+	width: 800px;
+	border-top: 1px solid #231a9c;
+	padding-top:20px;
+}
+
+#boxes{
+	width: 480px;
+	height: 150px;
+}
+
+.box1{
+	width: 140px;
+	height: 150px;
+	float: left;
+	border-left: 1px solid #231a9c;
+	padding-left: 8px;
+	/*las cajitas que tienen iconitos se supone que tienen que flotar  para alinearse una al lado de la otra. El contenedor tiene 480px, por lo que cada caja,
+con margin y padding incluido tiene que sumar 160px	*/
+}
+
+#accesorios #generales{
+	width:40%;
+	float:left;
+	padding: 0 1%;
+}
+#accesorios #beneficios{
+	width: 40%;
+	float:left;
+	padding: 0 1%;
+}
+
+#accesorios #comunidad {
+	width:16%;
+	float:right;
+}
+
+/*declaraciones correspondientes al contact form*/
+
+#contactform{
+	width: 310px;
+	font-family: Helvetica, sans-serif;
+	height:auto !important;
+	padding-left: 0px;
+	padding-right:10px;
+	margin-top: 15px;
+	/*border-left: 1px solid #231a9c;*/
+	/*-webkit-box-shadow: -2px 0px 3px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    -2px 0px 3px 0px rgba(50, 50, 50, 0.5);
+	box-shadow:         -2px 0px 3px 0px rgba(50, 50, 50, 0.5);*/
+}
+
+#contactform  a{
+	display: block;
+	clear: both;
+	text-decoration: none;
+	font-size: 10px;
+	color: black;
+	text-align: left;
+	opacity: .8;
+	margin:0;
+}
+
+#contactform input, #contactform textarea {
+	padding: 5px;
+	width: 296px;
+	font-family: Helvetica, sans-serif;
+	border: 2px solid #ccc;
+	/*margin: 5px 0px;*/
+	clear:both;
+	border-radius: 2px;	
+}
+
+#contactform .etiqueta{
+	float: left;
+	text-align: left;
+	padding-top: 10px;
+	font-size: 20px;
+	color:#333333;
+	font-size: 15px;
+	margin: 5px 5px;
+}
+
+.fila {
+	width: 310px;
+	display:block;
+	/*height: 35px;*/
+	clear: both;
+}
+
+#contactform .submit-button {
+	background: #ffa84c; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffa84c 0%, #ff7b0d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffa84c), color-stop(100%,#ff7b0d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffa84c 0%,#ff7b0d 100%); /* Chrome10+,Safari5.1+ */	
+	background: -o-linear-gradient(top, #ffa84c 0%,#ff7b0d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffa84c 0%,#ff7b0d 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffa84c 0%,#ff7b0d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 ); /* IE6-9 */
+	display: block;
+	color: white;
+	clear: both;
+	padding: 10px;
+	margin-top: 10px;
+	height: 40px;
+	width: 100%;
+	border-radius: 9px;	
+	border:none;
+	text-transform:uppercase;
+	font-weight: bold;
+	text-shadow: 0px 0px 5px rgba(255, 255, 255, .5);
+}
