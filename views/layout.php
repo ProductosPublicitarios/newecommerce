@@ -96,7 +96,11 @@
 
   ga('create', 'UA-25585223-1', 'auto');
   ga('send', 'pageview');
-
+	
+	//events
+	$('#header-button-mktng').on('click', function() {
+	ga('send', 'event', 'button','click', 'header buttons');
+});
 </script>
     </body>
 </html>
