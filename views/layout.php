@@ -5,8 +5,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <link rel="stylesheet" type="text/css" href="css/all.css" />
 		<link rel="stylesheet" href="css/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
-        <script type="text/javascript" src="js/jquery.min.js"></script>
-        <script type="text/javascript" src="js/cufon.js"></script>
+     	<script type="text/javascript" src="js/jquery.min.js"></script>
+	    <script type="text/javascript" src="js/cufon.js"></script>
         <script type="text/javascript" src="js/cufon-fonts.js"></script>
         <script type="text/javascript" src="js/cufon-settings.js"></script>
         <script src="js/jquery.fancybox-1.3.4.pack.js"></script>
@@ -99,8 +99,31 @@
 	
 	//events
 	$('#header-button-mktng').on('click', function() {
-	ga('send', 'event', 'button','click', 'header buttons');
-});
+	ga('send', 'event', 'button', 'click', 'header-buttons');
+	});
+	$('#header-button-estac').on('click',function(){
+	ga('send', 'event', 'button', 'click', 'estac-header-buttons')	
+	});
+	
+	//events without jquery
+	var marketingtips = document.getElementById('#header-button-mktng');
+	addListener(marketingtips, 'click', function(){
+		ga('send', 'event', 'marketingtips', 'click', 'nav-buttons');
+	});
+	
+	/**
+	* Utility to wrap the different behaviors between W3C-compliant browsers
+	* and IE when adding event handlers.
+	*
+	* @param {Object} element Object on which to attach the event listener.
+	* @param {string} type A string representing the event type to listen for
+	*     (e.g. load, click, etc.).
+	* @param {function()} callback The function that receives the notification.
+	*/
+	function addListener(element, type, callback) {
+	if (element.addEventListener) element.addEventListener(type, callback);
+	else if (element.attachEvent) element.attachEvent('on' + type, callback);
+	}
 </script>
     </body>
 </html>
