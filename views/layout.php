@@ -98,11 +98,15 @@
   ga('send', 'pageview');
 		
 	//events without jquery
-	var marketingtips = document.getElementById('#header-button-mktng');
-	addListener(marketingtips, 'click', function(){
+	
+	var marketingtips = document.getElementById('header-button-mktng');
+	addListener( marketingtips, 'click', function() {
 		ga('send', 'event', 'marketingtips', 'click', 'nav-buttons');
 	});
-	
+	function addListener(element, type, callback) {
+	if (element.addEventListener) element.addEventListener(type, callback);
+	else if (element.attachEvent) element.attachEvent('on' + type, callback);
+	}
 </script>
     </body>
 </html>
