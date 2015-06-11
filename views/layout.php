@@ -96,15 +96,7 @@
 
   ga('create', 'UA-25585223-1', 'auto');
   ga('send', 'pageview');
-	
-	//events
-	$('#header-button-mktng').on('click', function() {
-	ga('send', 'event', 'button', 'click', 'header-buttons');
-	});
-	$('#header-button-estac').on('click',function(){
-	ga('send', 'event', 'button', 'click', 'estac-header-buttons')	
-	});
-	
+		
 	//events without jquery
 	var marketingtips = document.getElementById('#header-button-mktng');
 	addListener(marketingtips, 'click', function(){
