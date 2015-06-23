@@ -1,0 +1,487 @@
+/*Color Principal (naranja): #ff7b0d/ rgba(255,123,13, .4) Color Secundario (celeste): #027f95 Color secundario2 (rojo oscuro): #881700*/
+/*Texto Colores: blanco (#ffffff), Negro (#000000), negro 85% (#262626), negro 50% (#7f7f7f)*/
+
+/*estilos de etiquetas, reset, generales*/
+*{
+	margin:0;
+	padding:0;
+}
+iframe{
+	height:0;
+	width: 0;
+}
+html{
+	width: 100%;
+}
+body{
+	width: 100%;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*pelotitas*/
+#second h3, #third h3 {
+	width: 8em;
+	height: 5em;
+	padding-top:3em;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+/*##################################################### COLORES #####################################################*/
+/*fondos naranjas*/
+.right, .left, footer, header, input[type="submit"], h3.envios{
+	background-color: #ff7b0d;
+}
+nav ul li a{
+	background-color: rgba(255,123,13, .4);
+}
+/*fondo celeste*/
+.variedad{
+	background-color: #027f95;
+}
+/*fondo rojo oscuro */
+.confecciones{
+	background-color: #881700;
+}
+/*textos blancos*/
+h2, ul li a, a, header .left>h1{
+	color: #ffffff;
+}
+/*textos 85%*/
+form>h2, form>p, form>a, p{
+	color: #262626;
+}
+/*textos negros*/
+.right>h1{
+	color: #000000;
+}
+/*lineas 85%*/
+#main{
+	border-bottom: 1px solid #262626;
+}
+#third{
+	border-top: 1px solid #262626;
+	padding-top: 1em;
+}
+#second div:nth-child(2), #third div:nth-child(2){
+	border-right: 1px solid #262626;
+	border-left: 1px solid #262626;
+}
+/*##################################################### TIPOGRAFIA #####################################################*/
+h1{
+	font-size: 2.9em;
+}
+h2{
+	font-size: 1.5em;
+	line-height: 1em;
+}
+p{
+	font-size: 1em;
+}
+
+h1, h3, a, input[type="submit"]{
+	font-family: 'bitter', sans-serif;
+}
+
+form>a, h2, p, label{
+	font-family: 'Open Sans', sans-serif;
+}
+::-webkit-input-placeholder{
+	font-family: 'Open Sans', sans-serif;
+} 
+:-moz-placeholder{
+	font-family: 'Open Sans', sans-serif;
+} 
+::-moz-placeholder{
+	font-family: 'Open Sans', sans-serif;
+} 
+:-ms-input-placeholder {
+	font-family: 'Open Sans', sans-serif;
+}
+#second p, #second h3, #third h3, #third p, footer{
+	text-align: center;
+}
+footer{
+	font-weight: 600;
+}
+#second p, #third p{
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+/*##################################################### POSICIÓN #####################################################*/
+/*header*/
+header{
+	width: 100%;
+	height: 6em;
+	padding-top: 1em;
+}
+.right{
+	width:28%;
+	float: right;
+	height: 6em;
+	padding-right: 5%;
+}
+.left{
+	width: 62%;
+	float: left;
+	height: 6em;
+	padding-left:5%;
+}
+.left>img{
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	z-index: 100;
+}
+nav{
+	width:90%;
+	margin-left: auto; 
+	margin-right: auto;
+	height: 1em;
+	clear: both;
+}
+nav ul li a{
+	float: left;
+	padding: 0.2em 0.5em  0.1em 0.5em;
+	margin-right: .2em;
+}
+/*posición del cuerpo principal*/
+#main{
+	padding-top:1.5em;
+	width: 100%;
+	height:27em;
+	clear: both;
+}
+#main>div{
+	height: 25em;
+	display: block;
+}
+#main div:first-child{
+	width:62%;
+	padding-left:5%;
+	float: left;
+}
+#main div:nth-child(2){
+	width:28%;
+	padding-right:5%;
+	float: right;
+}
+#main img{
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+form{
+	width: 60%;
+	height: 25em;
+	float: left;
+	margin-top:1em;
+}
+/*posición del div secundario pelotitas abajo*/
+#second, #third{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	clear: both;
+	height: auto;
+}
+#second>div, #third>div{
+	float: left; 
+	width: 33%;
+}
+/*footer*/
+footer{
+	clear:both;
+	width: 100%;
+	height: 2em;
+	margin-top: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+/*##################################################### FORMULARIO #####################################################*/
+form input[type="text"], form input[type="tel"], form input[type="email"]{
+	height: 2em;
+	margin-top: 0.5em;
+	width: 98%;
+}
+form>input{
+	float: left;
+}
+form label{
+	float: right;
+	text-align: left;
+	display: block;
+	width: 90%;
+	margin-top: 0.5em;
+	font-size: 0.8em;
+}
+form input[type="checkbox"]{
+	float: left;
+	margin-top: 0.7em;
+}
+form>a{
+	font-size: 0.8em;
+	clear: both;
+	width: 100%;
+	float: left;
+	margin-top: 0.5em;
+}
+form input[type="submit"]{
+	height: 2em;
+	border-radius: 6px;
+	font-weight: 700;
+	border: none;
+	font-size:1.2em;
+	line-height: 1em;
+	width: 100%;
+	margin-top: 0.5em;
+}
+
+/*##################################################### Accesorios sexys #####################################################*/
+header, footer{
+	-webkit-box-shadow:0px 0px 15px 0px #7f7f7f;
+	-moz-box-shadow:0px 0px 15px 0px #7f7f7f;
+	box-shadow: 0px 0px 15px 0px #7f7f7f;
+}
+#second h3{
+	-webkit-box-shadow:0px 0px 7px 0px #7f7f7f;
+	-moz-box-shadow:0px 0px 7px 0px #7f7f7f;
+	box-shadow: 0px 0px 7px 0px #7f7f7f;
+}
+h1, h3{
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+h2{
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+}
+a{
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+nav>ul>li>a:hover{
+	background: #ff7b0d;
+}
+form input[type="submit"]:hover{
+	background:#881700;
+	color: white;
+}
+footer a:hover{
+	color: black;
+}
+
+/*##################################################### Media Queries #####################################################*/
+@media (max-width: 1200px){
+	form{
+		width: 90%;
+		margin-left: 10%;
+	}
+}
+
+@media (max-width: 1024px){
+	.left{
+		height: auto;
+	}
+	.right{
+		margin-right: auto;
+		height: auto;
+	}
+	h1{
+		font-size: 2.2em;
+	}
+	h2{
+		font-size:1.5em;
+	}
+	form{
+		width: 90%;
+		margin-left: 10%;
+	}
+}
+@media (max-width: 770px){
+	header{
+		height: auto;
+	}
+	header>.left, header>.right{
+		float: left;
+		width: 100%;
+		padding-left: 0;
+	}
+	
+	.right{
+		padding-bottom: 10px;
+		padding-right: 0;
+	}
+	.right>h1, .right>h2{
+		padding-left: 115px;
+	}
+	h1{
+		font-size: 2em;
+	}
+	h2{
+		font-size:1.3em;
+	}
+	#main{
+		height: auto;
+		border:none;
+	}
+	#main div:nth-child(1){
+		width:100%;
+		height: auto;
+		clear:both;
+		padding: 0;
+		margin: 0;
+	}
+	#main div:nth-child(2){
+		width:100%;
+		height: auto;
+		float:center;
+		margin-left: auto;
+		margin-right: auto;
+		padding-right: 0;
+	}
+	nav{
+		width: 100%;
+		margin-right:auto;
+		margin-left:auto;
+		float: center;
+		clear: both;
+	}
+	nav ul{
+		display: block;
+		width: 100%;
+		height: auto;
+		float: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	nav ul li a{
+		display: block;
+		float: left;
+		width: 30%;
+		height: 1.5em;
+		border-left: 1px solid #ffffff;
+		padding-left: 3%;
+		padding-right: 0;
+		margin: 0;
+		text-align: center;
+	}
+	form{
+		display: block;
+		width:90%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 12em;
+		float: center;
+	}
+	form label{
+		width:95%;
+	}
+	#main form input{
+		width:45%;
+		float: left;
+	}
+	#newsletter{
+		width: 5%!important;
+	}
+	#name, #email{
+		margin-right: 5%;
+	}
+	#second h3{
+		width:7em;
+		height: 5em;
+		padding-top: 2.5em;
+	}
+}
+@media (max-width: 480px){
+	header{
+		height: auto;
+	}
+	header>.left, header>.right{
+		float: left;
+		width: 100%;
+	}
+	.right{
+		padding-bottom: 10px;
+	}
+	.right>h1, .right>h2{
+		padding-left: 125px;
+	}
+	h1{
+		font-size: 2em;
+	}
+	h2{
+		font-size:1.3em;
+	}
+	form{
+		display: block;
+		width:95%;
+		margin-left: auto;
+		margin-right: auto;
+		float: center;
+	}
+	#main form input{
+		width: 45%;
+	}
+	#main{
+		height: auto;
+		border:none;
+	}
+	#main div:nth-child(1){
+		width:100%;
+		height: auto;
+		clear:both;
+		padding-left: 0;
+	}
+	#main div:nth-child(2){
+		width:100%;
+		height: auto;
+		
+	}
+	#second>div{
+		clear: both;
+		width: 100%;
+		border-right: none!important;
+		border-left: none!important;
+		border-top: 1px solid #262626;
+		padding-top: 1em;
+	}
+	nav{
+		width: 100%;
+		margin-right:auto;
+		margin-left:auto;
+		float: center;
+		clear: both;
+	}
+	nav ul{
+		display: block;
+		width: 100%;
+		height: auto;
+		float: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	nav ul li a{
+		display: block;
+		float: left;
+		width: 30%;
+		height: 2.5em;
+		border-left: 1px solid #ffffff;
+		padding-left: 3%;
+		padding-right: 0;
+		margin: 0;
+		text-align: center;
+	}
+}
