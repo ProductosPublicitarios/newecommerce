@@ -383,7 +383,7 @@ footer a:hover{
 		height: auto;
 		margin-left: auto;
 		margin-right: auto;
-		margin-bottom: 12em;
+		margin-bottom: 2em;
 		float: center;
 	}
 	form label{
@@ -399,7 +399,7 @@ footer a:hover{
 	#name, #email{
 		margin-right: 5%;
 	}
-	#second h3{
+	#second h3, #third h3{
 		width:7em;
 		height: 5em;
 		padding-top: 2.5em;
@@ -450,7 +450,7 @@ footer a:hover{
 		height: auto;
 		
 	}
-	#second>div{
+	#second>div, #third>div{
 		clear: both;
 		width: 100%;
 		border-right: none!important;
