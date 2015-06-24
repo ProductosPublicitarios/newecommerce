@@ -2,7 +2,7 @@
  	
 		$EmailFrom = "landingremeras@example.com";
 		$EmailFromRe = "noreply@gylenterprise.com.ar";
-		$EmailTo = "ana.belen@gylenterprise.com.ar";
+		$EmailTo = "ventas@gylenterprise.com.ar";
 		$Subject = "Contacto por remeras";
 		$SubjectRe= "Gracias por contactarse con GYL Enterprise";
 		$Name = Trim(stripslashes($_POST['name'])); 
