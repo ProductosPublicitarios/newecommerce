@@ -15,8 +15,8 @@
 				<h2>¡Somos fabricantes!</h2>
 			</div>
 			<div class="right">
-				<h1>4115-6008</h1>
-				<h2>¡Llamanos!</h2>
+				<!--<h1>4115-6008</h1>
+				<h2>¡Llamanos!</h2>-->
 			</div>
 		</header>
 		<nav>
@@ -41,6 +41,8 @@
 					<label>Quiero recibir novedades por mail</label><input type="checkbox" name="newsletter" id="newsletter" value="quiere newsletter" checked="checked"><br>
 					<input type="submit" name="submit" value="Enviar" id="submit-button"><br>
 					<a href="http://www.gylenterprise.com.ar/politicas.php" target="_blank">Al enviar este formulario usted acepta las políticas de privacidad. Click aquí para leerlas</a>
+					<h1>4115-6008</h1>
+					<h2>¡Llamanos!</h2>
 				</form>
 			</div>
 		</div>
