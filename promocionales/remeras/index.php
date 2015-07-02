@@ -46,7 +46,7 @@
 		</div>
 		<div id="second">
 			<div>
-				<h3 class="variedad">Remeras Lisas o impresas con logos</h3>
+				<h3 class="variedad">Remeras Lisas o con logos</h3>
 				<p>Fabricamos remeras aptas para estampar en serigrafia, sublimar o bordar. También ofrecemos el servicio de estampado. Consultanos</p>
 			</div>
 			<div>
