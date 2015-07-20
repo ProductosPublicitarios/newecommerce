@@ -1,0 +1,48 @@
+*{
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style-type:none;
+	margin:0;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*TIPOGRAFIA*/
+h1,h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:600;
+	margin-top:10px;
+}
+main h3{
+	font-size: 1.5em;
+	color: rgba(89,110,117,1); /*azul grisáceo*/
+}
+p, a{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+#second, #third, footer{
+	text-align: center;
+}
+
+/*colores de fondo*/
+/*beige*/
+.color1{
+	background-color: rgba(191,179,165,1);
+}
+/*stone*/
+.color2{
+	background-color: rgba(241,235,223,1);
+}
+/*azul grisáceo*/
+.color3{
+	background-color: rgba(89,110,117,1);
+}
+/*casi blanco*/
+.color4{
+	background-color: rgba(247, 247,249,1);
+}
+
+/*Grilla*/
