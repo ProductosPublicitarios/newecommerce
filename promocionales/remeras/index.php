@@ -16,29 +16,42 @@
 		<link rel="stylesheet" href="../css/styleboot.css">
 	</head>
 	<body class="container-fluid color4">
-		<nav>
-			<ul class="row">
-				<li class="col-lg-4 color2"><a href="http://www.gylenterprise.com.ar" target="_blank" >Página Principal</a></li>
+			<ul  class="row color2">
+				<li class="col-lg-4"><a href="http://www.gylenterprise.com.ar" target="_blank" >Página Principal</a></li>
 				<li class="col-lg-4 color1"><a href="http://www.gylenterprise.com.ar/contacto.php" target="_blank" >Dónde estamos</a></li>
-				<li class="col-lg-4 color2"><a href="http://www.gylenterprise.com.ar/empresa.php" target="_blank" class="col-lg-4">Quienes Somos</a></li>
+				<li class="col-lg-4"><a href="http://www.gylenterprise.com.ar/empresa.php" target="_blank" class="col-lg-4">Quienes Somos</a></li>
 			</ul>			
-		</nav>
-		
-		<header class="row color2">
-			<div class="col-lg-8 color4">
-				<div class="row">
-					<img src="../img/logo.png" class="col-lg-2">
-					<h1 class="col-lg-6">Remeras Publicitarias</h1>
-					<h2 class="col-lg-6">¡Somos fabricantes!</h2>
-				</div>
-			</div>
+		<div class="row color2 main">
+			<!--izquierda-->
 			<div class="col-lg-4">
-				<h2>4115-6008 ¡Llamanos!</h2>
+				<header>
+					<div class="row">
+						<img src="../img/logo.png" class="col-lg-4 col-lg-offset-4">
+					</div>
+					<div class="col-lg-12">
+						<h1>Remeras Publicitarias</h1>
+						<h2>Somos fabricantes</h2>
+						<h2>4115-6008 ¡Llamanos!</h2>
+					</div>
+				</header>
+				<form action="verifyre.php" method="post" class="row">
+					<div class="col-lg-12">
+						<h2  class="col-lg-11">Contanos qué necesitas</h2>
+						<p  class="col-lg-11">Respondemos presupuestos en el día</p>
+						<input type="text" name="name" id="name" placeholder="Nombre" class="col-lg-11" required>
+						<input type="tel" name="tel" id="tel" placeholder="Teléfono" class="col-lg-11" required>
+						<input type="email" name="email" id="email" placeholder="Email" class="col-lg-11" required>
+						<input type="text" name="mensaje" id="mensaje" placeholder="Escriba su consulta" class="col-lg-11" required>
+						<div class=" clearfix visible-lg-port"></div>
+						<input type="checkbox" name="newsletter" id="newsletter" value="quiere newsletter" checked="checked" class="col-lg-1">
+						<label class="col-lg-10">Quiero recibir novedades por mail</label>
+						<input type="submit" name="submit" value="Enviar" id="submit-button" class="col-lg-11">
+						<a href="http://www.gylenterprise.com.ar/politicas.php" target="_blank" class="col-lg-11">Al enviar este formulario usted acepta las políticas de privacidad. Click aquí para leerlas</a>
+					</div>
+				</form>	
 			</div>
-		</header>
-		
-		<main class="row">
-			<div class="col-lg-8">
+			 <!--derecha-->
+			<div class="col-lg-8 color4">
 				<div class="row">
 					<div class="producto col-lg-4">
 					<!--Primer remera-->
@@ -80,19 +93,7 @@
 					</div>
 				</div>
 			</div>
-			<form action="verifyre.php" method="post" class="col-lg-4 color2">
-					<br>
-					<h2>Contactános</h2>
-					<p>Respondemos presupuestos en el día</p>
-					<input type="text" name="name" id="name" placeholder="Nombre" required>
-					<input type="tel" name="tel" id="tel" placeholder="Teléfono" required>
-					<input type="email" name="email" id="email" placeholder="Email" required>
-					<input type="text" name="mensaje" id="mensaje" placeholder="Escriba su consulta" required>
-					<label>Quiero recibir novedades por mail</label><input type="checkbox" name="newsletter" id="newsletter" value="quiere newsletter" checked="checked"><br>
-					<input type="submit" name="submit" value="Enviar" id="submit-button"><br>
-					<a href="http://www.gylenterprise.com.ar/politicas.php" target="_blank">Al enviar este formulario usted acepta las políticas de privacidad. Click aquí para leerlas</a>
-			</form>	
-		</main>
+		</div>
 		
 		<div id="second" class="row color2">
 			<div class="col-lg-4">
