@@ -5,6 +5,8 @@
 		<title>G&L Enterprise - Remeras Publicitarias </title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="author" content="Ana Barrionuevo">
+		<meta name="keywords" content="remeras, sublimadas, mayorista, algodón, poliester, polyester, estampados, publicitarias, merchandising">
 		
 		<!-- Bootstrap -->
  		<!-- Latest compiled and minified CSS -->
@@ -14,16 +16,28 @@
 		<!-- other sheets -->
 		<link href='http://fonts.googleapis.com/css?family=Bitter:400,700|Open+Sans:300,600' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="../css/styleboot.css">
+		
+		<!-- Owl Carousel Assets -->
+		<link href="../owl-carousel/owl.carousel.css" rel="stylesheet">
+		<link href="../owl-carousel/owl.theme.css" rel="stylesheet">
+		
 	</head>
 	<body class="container-fluid degrade">
-			<ul  class="row color3">
-				<li class="col-lg-4"><a href="http://www.gylenterprise.com.ar" target="_blank" >Página Principal</a></li>
-				<li class="col-lg-4 color2"><a href="http://www.gylenterprise.com.ar/contacto.php" target="_blank" >Dónde estamos</a></li>
-				<li class="col-lg-4 color5"><a href="http://www.gylenterprise.com.ar/empresa.php" target="_blank" class="col-lg-4">Quienes Somos</a></li>
-			</ul>			
+		<ul  class="row color3">
+			<li class="col-lg-4"><a href="http://www.gylenterprise.com.ar" target="_blank" >Página Principal</a></li>
+			<li class="col-lg-4 color2"><a href="http://www.gylenterprise.com.ar/contacto.php" target="_blank" >Dónde estamos</a></li>
+			<li class="col-lg-4 color5"><a href="http://www.gylenterprise.com.ar/empresa.php" target="_blank" class="col-lg-4">Quienes Somos</a></li>
+		</ul>			
 		<div class="row main">
+			<div id="owl-demo" class="owl-carousel owl-theme">
+ 
+			  <div class="item"><img src="remeras.jpg" alt="The Last of us"></div>
+			  <div class="item"><img src="remeras.jpg" alt="GTA V"></div>
+			  <div class="item"><img src="remeras.jpg" alt="Mirror Edge"></div>
+ 
+			</div>
 			<!--izquierda-->
-			<div class="col-lg-4 izquierda degrade2">
+			<div class="col-lg-4 izquierda2 degrade2">
 				<header>
 					<div class="row">
 						<img src="../img/logo.png" class="col-lg-4 col-lg-offset-4">
@@ -49,50 +63,7 @@
 						<a href="http://www.gylenterprise.com.ar/politicas.php" target="_blank" class="col-lg-11">Al enviar este formulario usted acepta las políticas de privacidad. Click aquí para leerlas</a>
 					</div>
 				</form>	
-			</div>
-			 <!--derecha-->
-			<div class="col-lg-8 derecha">
-				<div class="row">
-					<div class="producto col-lg-4">
-					<!--Primer remera-->
-						<img src="prod.png">
-						<h3>Remera modelo XXX</h3>
-						<p>texto descriptivo</p>
-					</div>
-					<div class="producto col-lg-4">
-					<!--Segunda remera-->
-						<img src="prod.png">
-						<h3>Remera modelo XXX</h3>
-						<p>texto descriptivo</p>
-					</div>
-					<div class="producto col-lg-4">
-					<!--Tercera remera-->
-						<img src="prod.png">
-						<h3>Remera modelo XXX</h3>
-						<p>texto descriptivo</p>
-					</div>
-				</div>
-				<div class ="row">
-					<div class="producto col-lg-4">
-					<!--Cuarta remera-->
-						<img src="prod.png">
-						<h3>Remera modelo XXX</h3>
-						<p>texto descriptivo</p>
-					</div>
-					<div class="producto col-lg-4">
-					<!--Quinta remera-->
-						<img src="prod.png">
-						<h3>Remera modelo XXX</h3>
-						<p>texto descriptivo</p>
-					</div>
-					<div class="producto col-lg-4">
-					<!--Sexta remera-->	
-						<img src="prod.png">
-						<h3>Remera modelo XXX</h3>
-						<p>texto descriptivo</p>
-					</div>
-				</div>
-			</div>
+			</div>	
 		</div>
 		
 		<div id="second" class="row">
@@ -142,5 +113,78 @@
 		</div>
 		</noscript>
 		<!-- Codigo de remarketing -->
+		
+		
+    <script src="assets/js/jquery-1.9.1.min.js"></script>
+    <script src="owl-carousel/owl.carousel.min.js"></script>
+
+    <!-- Frontpage Demo -->
+    <script>
+
+    $(document).ready(function($) {
+      $("#owl-example").owlCarousel();
+    });
+
+
+    $("body").data("page", "frontpage");
+
+    </script>
+	<script>
+	$(document).ready(function() {
+ 
+  $("#owl-demo").owlCarousel({
+ 
+      navigation : true, // Show next and prev buttons
+ 
+      slideSpeed : 300,
+      paginationSpeed : 400,
+ 
+      items : 1, 
+      itemsDesktop : false,
+      itemsDesktopSmall : false,
+      itemsTablet: false,
+      itemsMobile : false
+ 
+  });
+ 
+});
+</script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+	  <script src="assets/js/application.js"></script>
+
+    <script type="text/javascript">
+    jQuery(function($){
+      var disqus_loaded = false;
+      var top = $("#faq").offset().top; 
+      var owldomain = window.location.hostname.indexOf("owlgraphic");
+      var comments = window.location.href.indexOf("comment");
+
+      if(owldomain !== -1){
+        function check(){
+          if ( (!disqus_loaded && $(window).scrollTop() + $(window).height() > top) || (comments !== -1) ){
+            $(window).off( "scroll" )
+            disqus_loaded = true;
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'owlcarousel'; // required: replace example with your forum shortname
+            var disqus_identifier = 'OWL Carousel';
+            //var disqus_url = 'http://owlgraphic.com/owlcarousel/';
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+          }
+        }
+        $(window).on( "scroll", check )
+        check();
+      } else {
+        $('.disqus').hide();
+      }
+    });
+    </script>
 	</body>
 </html>
